@@ -1,0 +1,20 @@
+# Secrets & credentials - NEVER commit these
+openclaw.json
+.env
+credentials/
+telegram/
+agents/main/agent/
+devices/
+*.pem
+*.key
+
+# Runtime / state
+logs/
+sessions/
+cron/
+identity/
+completions/
+cache/
+*.bak
+*.bak.*
+update-check.json
